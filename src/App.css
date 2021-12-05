@@ -1,38 +1,64 @@
 .App {
   text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
+  padding-bottom: 2%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#Navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #333333;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#Navbar .tab:hover {
+  background-color: lightgray;
+  color: #333333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.breadcrumb-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.breadcrumb-list li {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  float: left;
+  text-transform: none;
+}
+.breadcrumb-list li a {
+  display: block;
+  color: #333333;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li a::after {
+  content: " >";
+  color: gray;
+}
+.breadcrumb-list li a span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+p a {
+  font-size: 12px;
+  color: black;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  cursor: auto;
 }
