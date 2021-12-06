@@ -74,8 +74,6 @@ li a::after {
 }
 .productDetail {
   text-align: left;
-  font-family: SuisseIntl, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 p a {
   font-size: 12px;
