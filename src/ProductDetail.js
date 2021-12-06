@@ -3,8 +3,10 @@ import Grid from "@material-ui/core/Grid";
 import StarIcon from "@mui/icons-material/Star";
 import { makeStyles } from "@mui/styles";
 import TextField from "@mui/material/TextField";
-import Accordion from "./Accordion.js";
 import Divider from "@mui/material/Divider";
+
+import Accordion from "./Accordion.js";
+import AddToCartModal from "./AddToCartModal.js";
 
 const useStyles = makeStyles(() => ({
   hover1: {
@@ -57,13 +59,8 @@ export default function ProductDetail() {
       </ul>
       <h2>$19.95</h2>
       <TextField id="outlined-basic" label="quantity" variant="outlined" />
-      <Grid>
-        <img
-          src={"images/button-add-to-cart.jpg"}
-          alt="addToCart"
-          className="addToCart"
-        />
-      </Grid>
+      <AddToCartModal />
+
       <Divider />
       <Accordion />
     </div>
