@@ -1,5 +1,9 @@
 # Getting Started
 
+### `cd client`
+
+cd to "client" directory, make sure you are in the right directory before running any of the following scripts:)
+
 ### `npm install`
 
 to install all required dependencies

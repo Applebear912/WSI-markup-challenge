@@ -1,6 +1,7 @@
 import "./App.css";
-import Navbar from "./Navbar.js";
 import Grid from "@material-ui/core/Grid";
+
+import Navbar from "./Navbar.js";
 import BreadcrumbList from "./BreadcrumbList.js";
 import ImgGallery from "./ImgGallery.js";
 import ProductDetail from "./ProductDetail.js";
