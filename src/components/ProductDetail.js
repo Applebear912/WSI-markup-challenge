@@ -57,7 +57,7 @@ export default function ProductDetail() {
         <li>Ergonomic Height Structure</li>
       </ul>
       <h2>$19.95</h2>
-      <TextField id="outlined-basic" label="quantity" variant="outlined" />
+      <TextField id="outlined-basic" label="quantities" variant="outlined" />
       <AddToCartModal />
 
       <Divider />
