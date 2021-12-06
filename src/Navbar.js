@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
@@ -26,8 +26,8 @@ export default function Navbar() {
         <Tab label="FOOD" className="tab" />
         <Tab label="TABLETOP & BAR" className="tab" />
         <Tab label="HOMEKEEPING" className="tab" />
-        <Tab label="OUTDOOR" />
-        <Tab label="SALE" textColor="red" className="tab" />
+        <Tab label="OUTDOOR" className="tab" />
+        <Tab label="SALE" className="tab" />
         <Tab label="WILLIAMS-SONOMA HOME" className="tab" />
       </Tabs>
     </Box>

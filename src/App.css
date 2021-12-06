@@ -11,7 +11,23 @@
   pointer-events: none;
   padding-bottom: 2%;
 }
-
+img:hover {
+  cursor: pointer;
+}
+.productPhoto {
+  border-radius: 25px;
+  padding: 20px;
+  height: 500px;
+  width: 500px;
+  display: center;
+}
+.smallerPhotos {
+  border-radius: 25px;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  display: center;
+}
 #Navbar {
   list-style-type: none;
   margin: 0;
@@ -53,7 +69,11 @@ li a::after {
   text-decoration: underline;
   cursor: pointer;
 }
-
+.productDetail {
+  text-align: left;
+  font-family: SuisseIntl, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 p a {
   font-size: 12px;
   color: black;
@@ -61,4 +81,15 @@ p a {
   text-align: center;
   text-decoration: none;
   cursor: auto;
+}
+
+h5 {
+  color: red;
+}
+
+.addToCart {
+  height: 40px;
+  width: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
