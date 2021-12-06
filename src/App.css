@@ -17,12 +17,18 @@ img:hover {
 img:checked {
   border: 1px solid gray;
 }
-.productPhoto {
+.currentPhoto {
   border-radius: 25px;
   padding: 20px;
   height: 500px;
   width: 500px;
   display: center;
+}
+
+.currentPhoto :hover {
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .smallerPhotos {
   border-radius: 25px;
@@ -75,6 +81,7 @@ li a::after {
 .productDetail {
   text-align: left;
 }
+
 p a {
   font-size: 12px;
   color: black;

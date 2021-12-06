@@ -7,7 +7,7 @@ export default function ImgGallery(props) {
 
   return (
     <Grid item xs={12}>
-      <img src={currentImg} alt="product large a" className="productPhoto" />
+      <img src={currentImg} alt="product large a" className="currentPhoto" />
 
       <Stack
         direction="row"
